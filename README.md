@@ -1,6 +1,6 @@
 # HackConRD2025_Atacando y Defendiendo Active Directory
 
-Este repositorio contiene información sobre las técnicas utilizadas en el workshop de **Ataque y Defensa de Active Directory**. El laboratorio utilizado es [GOAD](https://orange-cyberdefense.github.io/GOAD/installation/windows/), en el cual las siguientes técnicas fueron abordadas con base en el laboratorio de GOAD.
+Este repositorio contiene información sobre las técnicas utilizadas en el workshop de **Ataque y Defensa de Active Directory**. En el cual las siguientes técnicas fueron abordadas con base en el laboratorio de [GOAD](https://orange-cyberdefense.github.io/GOAD/installation/windows/),.
 
 [![Windows](https://img.shields.io/badge/Windows-Active%20Directory-blue?style=flat&logo=windows)](https://www.microsoft.com/)  
 [![Security](https://img.shields.io/badge/Security-CIS%20Benchmark-critical?style=flat&logo=cybersecurity)](https://www.cisecurity.org/)  
