@@ -47,7 +47,7 @@ Este archivo describe la estructura que recomendamos crear mediante una polític
 Debe ejecutarse con privilegios de administrador en el controlador de dominio donde se aplicará la configuración.  
 Este script está diseñado específicamente para un entorno de **Active Directory GOAD**. **No debe ser ejecutado en otros entornos** sin primero verificar que las configuraciones sean apropiadas.  
 
-Contiene reglas de firewall que limitan el acceso RDP a la dirección IP que se designe. Sin embargo, si el firewall de Windows está inactivo, estas reglas no funcionarán, por lo que deberás activarlo.
+Contiene reglas de firewall de windows que limitan el acceso RDP a la dirección IP que se designe para acceder al Controlador de Dominio. Sin embargo, si el firewall de Windows está inactivo, estas reglas no funcionarán, por lo que deberás activarlo.
 
 ## 📢 Para el archivo: **GOAD_HackConRD2025_GPO.zip**
 
