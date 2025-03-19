@@ -49,6 +49,16 @@ Este script está diseñado específicamente para un entorno de **Active Directo
 
 Contiene reglas de firewall que limitan el acceso RDP a la dirección IP que se designe. Sin embargo, si el firewall de Windows está inactivo, estas reglas no funcionarán, por lo que deberás activarlo.
 
+## 📢 Para el archivo: **GOAD_HackConRD2025_GPO.zip**
+
+Este archivo contiene las políticas recomendadas para el GOAD.
+Las políticas son:
+🛠️ LLMNR_NBT-NS Poisoning and SMB Relay
+🛠️ HackConRD2025_Hardening_AD
+🛠️ Enable AES Encruption Kerberos
+🛠️ Disable SMBv1
+🛠️ CIS_HackConRD2025_v2 (Esta es una política que puede llevar a un ambiente productivo.)
+
 ---
 👾 ¡Gracias por leer! 👾  
 📢 **¡Contribuye!** Si tienes sugerencias, mejoras o encuentras errores, ¡haz un pull request o abre un issue! 🚀  
