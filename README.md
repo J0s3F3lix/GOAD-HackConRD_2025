@@ -44,23 +44,23 @@ Este archivo describe la estructura que recomendamos crear mediante una polític
 
 - **Guardar como `.ps1`**: Este script debe guardarse con la extensión `.ps1` (por ejemplo, `GOAD_HackConRD2025_Script_AD.ps1`).  
   
-Debe ejecutarse con privilegios de administrador en el controlador de dominio donde se aplicará la configuración. 
-Este script está diseñado específicamente para un entorno de **Active Directory GOAD**. **No debe ser ejecutado en otros entornos** sin primero verificar que las configuraciones sean apropiadas. 
+Debe ejecutarse con privilegios de administrador en el controlador de dominio donde se aplicará la configuración.  
+Este script está diseñado específicamente para un entorno de **Active Directory GOAD**. **No debe ser ejecutado en otros entornos** sin primero verificar que las configuraciones sean apropiadas.  
 
 Contiene reglas de firewall que limitan el acceso RDP a la dirección IP que se designe. Sin embargo, si el firewall de Windows está inactivo, estas reglas no funcionarán, por lo que deberás activarlo.
 
 ## 📢 Para el archivo: **GOAD_HackConRD2025_GPO.zip**
 
 Este archivo contiene las políticas recomendadas para el GOAD.
-Las políticas son:
-🛠️ LLMNR_NBT-NS Poisoning and SMB Relay
-🛠️ HackConRD2025_Hardening_AD
-🛠️ Enable AES Encruption Kerberos
-🛠️ Disable SMBv1
-🛠️ CIS_HackConRD2025_v2 (Esta es una política que puede llevar a un ambiente productivo.)
+- 🛠️ LLMNR_NBT-NS Poisoning and SMB Relay  
+- 🛠️ HackConRD2025_Hardening_AD  
+- 🛠️ Enable AES Encryption Kerberos  
+- 🛠️ Disable SMBv1  
+- 🛠️ CIS_HackConRD2025_v2  
+
+> **Importante:** Estas políticas están pensadas para un ambiente **GOAD** y **no deben ser ejecutadas en otros entornos**. Sin embargo, la política **CIS_HackConRD2025_v2** puede servir como ejemplo para un ambiente productivo.
 
 ---
 👾 ¡Gracias por leer! 👾  
 📢 **¡Contribuye!** Si tienes sugerencias, mejoras o encuentras errores, ¡haz un pull request o abre un issue! 🚀  
 ❤️ **Con amor, NickGitHub: [J0s3F3lix](https://github.com/J0s3F3lix)**  
-
